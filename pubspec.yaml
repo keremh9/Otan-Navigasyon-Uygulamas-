@@ -1,0 +1,34 @@
+name: otoban_yakit_app
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.12.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+  sqflite: ^2.4.3
+  path: ^1.9.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/opet_logo.png
+    - assets/images/shell_logo.png
+    - assets/images/po_logo.png
+    - assets/images/total_logo.png
+    - assets/images/kgm_logo.png
+    - assets/images/hgs_logo.png
+    - assets/images/uab_logo.png
